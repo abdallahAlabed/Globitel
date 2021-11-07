@@ -1,0 +1,12 @@
+spring:
+    datasource:
+        password: Root@5902
+        url: jdbc:mysql://localhost:3306/globitel
+        username: root
+        river-class-name: com.mysql.jdbc.Driver
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL5InnoDBDialect
